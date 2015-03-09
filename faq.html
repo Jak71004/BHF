@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+</head>
+<body>
+    <div class=" container">
+        <ul class="media-list">
+            <li ng-repeat="question in questions" class="media">
+                <div class="media-left">
+                    <img class="media-object" src="./img/Question" alt="Question">
+                </div>
+                <div class="media-body">
+                    <h4 class="media-heading">{{question.questionTitle}}</h4>
+                   <p>{{question.question}}</p>
+                    <ul class="media-list">
+                        <li class="media">
+                            <div class="media-left">
+                                <img class="media-object" src="./img/Question" alt="Question">
+                            </div>
+                            <div class="media-body">
+                                <h4 class="media-heading">{{question.answerTitle}}</h4>
+                                <p>{{question.answer}}</p>
+                                </div>
+</li>
+                    </ul>
+                </div>
+            </li>
+        </ul>
+    </div>
+</body>
+</html>
