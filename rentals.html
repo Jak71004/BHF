@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+</head>
+<body>
+    <div class="row">
+        <div ng-repeat="rental in rentals | filter: classFilter(rental)" class="col-sm-6 col-md-4">
+            <div class="thumbnail">
+                <img src="./img/Product1.png" alt="Product Name" />
+                <div class="caption">
+                    <h3>Heading</h3>
+                    <p>Description</p>
+                    <p><a href="#" class="btn btn-primary" role="button">Reserve Now</a> <a href="#" class="btn btn-default" role="button">Details</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
